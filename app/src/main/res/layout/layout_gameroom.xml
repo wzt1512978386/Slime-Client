@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E4E4">
+
+    <com.example.udpclient4.GameRoom.GameLayout
+        android:background="@drawable/p_game_stage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp">
+        <!--pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_gameroom_man1"
+            android:src="@drawable/gif_game_man1_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </pl.droidsonroids.gif.GifImageView-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_gameroom_score"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+    </com.example.udpclient4.GameRoom.GameLayout>
+    <TextView
+        android:id="@+id/textview_gameroom_HP"
+        android:alpha="0.9"
+        android:text="100"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="6dp"
+        android:fontFamily="monospace"
+        android:background="@drawable/p_gameroom_heart_0"
+        android:gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:elevation="10dp">
+    </TextView>
+
+</FrameLayout>

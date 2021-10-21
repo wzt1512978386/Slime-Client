@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#80E9DFFF"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gifbutton_item_chatroom_emo"
+        android:src="@drawable/gif_chat_1"
+        android:background="@color/C_transparent"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+    </pl.droidsonroids.gif.GifImageButton>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+    </View>
+
+</LinearLayout>
